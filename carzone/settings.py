@@ -26,6 +26,7 @@ SECRET_KEY = '4gxzn&*vce$37rz*bf74!j&$*93h_1*w=ir#zf-^9h10=mk%2('
 DEBUG = True
 
 ALLOWED_HOSTS = []
+LOGIN_REDIRECT_URL = 'dashboard'
 
 
 # Application definition
@@ -39,7 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pages',
     'cars',
+    'contacts',
+    'accounts',
     'django.contrib.humanize',
+    'django.contrib.sites',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +135,17 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'testkunal1701@gmail.com'
+EMAIL_HOST_PASSWORD = 'lwqn robm lhgw ppmm'
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+
+SITE_ID = 1
