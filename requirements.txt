@@ -80,6 +80,7 @@ defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
 dill @ file:///Users/cbousseau/work/recipes/ci_py311/dill_1677926161443/work
 distributed @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_46b2z6ud_6/croot/distributed_1686866053959/work
+dj-database-url==2.1.0
 Django==4.2.7
 django-allauth==0.58.1
 django-ckeditor==6.7.0
@@ -354,6 +355,7 @@ webencodings==0.5.1
 websocket-client @ file:///Users/cbousseau/work/recipes/ci_py311/websocket-client_1677918996745/work
 Werkzeug @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_fc9kcczuwd/croot/werkzeug_1679489745296/work
 whatthepatch @ file:///Users/cbousseau/work/recipes/ci_py311/whatthepatch_1677934976505/work
+whitenoise==6.6.0
 widgetsnbextension @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_cd_nvw5x1_/croot/widgetsnbextension_1679313872684/work
 wrapt @ file:///Users/cbousseau/work/recipes/ci_py311/wrapt_1677925966862/work
 wurlitzer @ file:///Users/cbousseau/work/recipes/ci_py311/wurlitzer_1677955854875/work
